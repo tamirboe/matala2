@@ -8,7 +8,7 @@ Created on Sun Mar 28 08:43:20 2021
 def revword(word:str) -> str:
     i=len(word)
     n=""
-    for i in word:
+    for i in range(len(word)):
         i=i-1
         n=n+word[i]
         
