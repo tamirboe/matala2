@@ -21,6 +21,6 @@ def countword() -> int:
         line = line.rsplit()
         for word in line:
             word = revword(word)
-            if word._eq_(firstline):
+            if word == firstline:
                 count = count + 1
     return count
