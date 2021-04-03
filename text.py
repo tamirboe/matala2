@@ -1,4 +1,3 @@
--- coding: utf-8 --
 """
 Created on Sun Mar 28 08:43:20 2021
 
